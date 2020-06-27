@@ -10,8 +10,6 @@ const port = 3000;
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(cors());
-app.use(bodyParser.json());
-app.use(express.static(__dirname + '/../dist'));
 
 // ROUTING IMPORTS
 const taskRoute = require('./api/task/tasks-routes');
