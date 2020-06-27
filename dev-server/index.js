@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const db = require('./config/db');
-const port = 3000;
+const port = process.env.PORT;
 
 // MIDDLEWARE
 app.use(morgan('dev'));
