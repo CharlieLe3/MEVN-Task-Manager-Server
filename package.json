@@ -1,27 +1,30 @@
 {
-  "name": "mevn-stack",
-  "version": "0.1.0",
-  "private": true,
+  "name": "mevn_task_manager_server",
+  "version": "1.0.0",
+  "description": "npm start",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./dev-server/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlwaysHunt/MEVN-Task-Manager-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlwaysHunt/MEVN-Task-Manager-Server/issues"
+  },
+  "homepage": "https://github.com/AlwaysHunt/MEVN-Task-Manager-Server#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
-    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "jquery": "^3.5.1",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.27.0",
     "mongoose": "^5.9.20",
-    "popper.js": "^1.16.1"
-  },
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "cors": "^2.8.5",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
     "morgan": "^1.10.0"
-
   }
 }
